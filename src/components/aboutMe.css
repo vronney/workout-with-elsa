@@ -1,0 +1,11 @@
+.aboutMe img {
+    display: inline-block;
+    height: 420px;
+    width: 280;
+    margin-top: 15px;
+}
+
+.aboutMe p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
