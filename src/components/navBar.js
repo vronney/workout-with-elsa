@@ -14,7 +14,7 @@ class NavBar extends Component {
                 { /* eslint-disable-next-line */ }
                 <li><a href = "#"> News </a></li>
                 { /* eslint-disable-next-line */ }
-                <li><a href = "#"> About </a></li>
+                <li><a href = "#About"> About </a></li>
                 { /* eslint-disable-next-line */ }
                 <li><a href = "#"> Contact </a></li >
             </ul>
