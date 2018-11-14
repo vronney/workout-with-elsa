@@ -1,24 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import NavBar from './components/navBar';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          < NavBar />
+          <div className="neverGiveUp" alt="Women-doing-a-pull-up">
+            <h1 className="logo">Never Give Up</h1>
+            <h2 className="text-info">Get into your best shape ever!</h2>
+            <input className="meals" type="button" value="Meal Planning" />
+            <input className="workouts" type="button" value="Workout Sessions" />
+            <button><a href = "https://www.advocare.com/140262771" target = "_blank" rel = "noopener noreferrer">Supplements</a>
+            </button>
+          </div>
         </header>
       </div>
     );
