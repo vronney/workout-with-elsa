@@ -1,5 +1,6 @@
-#About img {
+.image-elsa {
     display: inline-block;
+    border-radius: 5px;
     height: 420px;
     width: 280;
     margin: 15px;
@@ -16,8 +17,25 @@
     flex-direction: row;
 }
 
+.facebook-icon {
+    height: 20px !important;
+    width: 20px !important;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.youtube-icon {
+    height: 30px !important;
+    width: 30px !important;
+    border: 0;
+    border-radius: 5px;
+    align-content: center;
+    margin-left: 2px;
+}
+
 @media only screen and (max-width: 500px) {
-    #About img {
+    .image-elsa {
         float: none;
     }
 }
