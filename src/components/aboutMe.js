@@ -14,7 +14,7 @@ class AboutMe extends Component {
                for infomercials, fitness products, marketing videos and related media.Somewhere along the way, I became and“ Influencer” and thanks to my background in journalism and media, I started blogging in 2009. In front of the camera, I am a Show Host, Fitness Lifestyle Model, and Spokesperson.</p>
                 <p>I moved to San Antonio to pursue television and film production work.As my interest in fitness grew, my career goal became finding a way to fuse my two passions– production and fitness.It’ s been an amazing journey, and well worth the trip!</p>
                 <p>I use my communication background to educate and motivate people towards a healthier life– one that embraces movement and getting a handle on their nutrition.I use my vast knowledge of fitness, plus my years of media experience, to help products create authentic content with value.</p>
-            <React.Fragment>
+                <br/>
                 <h2 className="follow-me">Follow Me</h2>                
                 <a href = "https://www.facebook.com/pages/category/Community/Advocare-Vargas-757890344246706/">
                     <img title = "follow me on facebook"
@@ -22,13 +22,18 @@ class AboutMe extends Component {
                     src = "https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png"
                     className = "facebook-icon"/>
                 </a>
-                <a target = "_blank"
-                title = "follow me on youtube"
-                href = "https://www.youtube.com/PLACEHOLDER" ><img alt = "follow me on youtube"
-                src = "https://c866088.ssl.cf3.rackcdn.com/assets/youtube40x40.png"
-                className="youtube-icon"/>
+                <a href = "https://www.youtube.com/PLACEHOLDER">
+                   <img title="follow me on youtube" 
+                   alt = "follow me on youtube"
+                   src = "https://c866088.ssl.cf3.rackcdn.com/assets/youtube40x40.png"
+                   className="youtube-icon"/>
                 </a>
-            </React.Fragment>
+                <a href = "https://www.instagram.com/PLACEHOLDER">
+                    <img title = "follow me on instagram"
+                    alt = "follow me on instagram"
+                    src = "https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png"
+                    className = "instagram-icon" / >
+                </a>
             </div>
         );
     }
