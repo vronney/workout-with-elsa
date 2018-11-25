@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import NavBar from './components/navBar';
 import AboutMe from './components/aboutMe.js';
+import ContactMe from './components/contactMe.js';
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
           </div>
         </header>
         <AboutMe/>
+        <ContactMe/>
       </div>
     );
   }
