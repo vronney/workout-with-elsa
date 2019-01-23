@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/navBar';
 import AboutMe from './components/aboutMe.js';
 import ContactMe from './components/contactMe.js';
-
+import Footer from './components/footer.js';
 
 class App extends Component {
   render() {
@@ -16,12 +16,13 @@ class App extends Component {
             <h2 className="text-info">Get into your best shape ever!</h2>
             <input className="meals" type="button" value="Meal Planning" />
             <input className="workouts" type="button" value="Workout Sessions" />
-            <button><a href = "https://www.advocare.com/140262771" target = "_blank" rel = "noopener noreferrer">Supplements</a>
+            <button><a href = "https://www.advocare.com/140262771/store/catalog/top-sellers" target = "_blank" rel = "noopener noreferrer">Supplements</a>
             </button>
           </div>
         </header>
         <AboutMe/>
         <ContactMe/>
+        <Footer/>
       </div>
     );
   }

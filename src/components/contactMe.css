@@ -1,0 +1,53 @@
+#contactMe {
+    display: inline-block;
+    background-color: rgb(189, 184, 184);
+    width: 100%; 
+}
+
+.email-icon {
+    display: inline-flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.contactMe-text {
+    line-height: .5em;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.facebook-icon {
+    height: 20px !important;
+    width: 20px !important;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.youtube-icon {
+    height: 20px !important;
+    width: 20px !important;
+    border: 0;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.instagram-icon {
+    height: 20px !important;
+    width: 20px !important;
+    border: 0;
+    align-items: center;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+    #contactMe {
+        display: inline-block;
+        flex-direction: row;
+    }
+
+    .contactMe-text {
+        align-items: center;
+    }
+}

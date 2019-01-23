@@ -17,30 +17,6 @@
     flex-direction: row;
 }
 
-.facebook-icon {
-    height: 20px !important;
-    width: 20px !important;
-    border: 0;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.youtube-icon {
-    height: 20px !important;
-    width: 20px !important;
-    border: 0;
-    align-items: center;
-    margin-left: 8px;
-}
-
-.instagram-icon {
-    height: 20px !important;
-    width: 20px !important;
-    border: 0;
-    align-items: center;
-    margin-left: 8px;
-}
-
 @media only screen and (max-width: 500px) {
     .image-elsa {
         float: none;

@@ -10,30 +10,12 @@ class AboutMe extends Component {
                 <h2 className="aboutMe-name">Hi, I'm Elsa</h2>
                <p>I am a San Antonio based Fitness Professional with 10 + years of experience in training and conditioning. 
                    I have transformed thousands of lives through fitness and healthy lifestyle changes.</p>
-                <p>Outside of the gym or studio, I am also a Content Producer, Writer, Director and Consultant
-               for infomercials, fitness products, marketing videos and related media.Somewhere along the way, I became and“ Influencer” and thanks to my background in journalism and media, I started blogging in 2009. In front of the camera, I am a Show Host, Fitness Lifestyle Model, and Spokesperson.</p>
-                <p>I moved to San Antonio to pursue television and film production work.As my interest in fitness grew, my career goal became finding a way to fuse my two passions– production and fitness.It’ s been an amazing journey, and well worth the trip!</p>
-                <p>I use my communication background to educate and motivate people towards a healthier life– one that embraces movement and getting a handle on their nutrition.I use my vast knowledge of fitness, plus my years of media experience, to help products create authentic content with value.</p>
-                <br/>
-                <h2 className="follow-me">Follow Me</h2>                
-                <a href = "https://www.facebook.com/pages/category/Community/Advocare-Vargas-757890344246706/">
-                    <img title = "follow me on facebook"
-                    alt = "follow me on facebook"
-                    src = "https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png"
-                    className = "facebook-icon"/>
-                </a>
-                <a href = "https://www.youtube.com/PLACEHOLDER">
-                   <img title="follow me on youtube" 
-                   alt = "follow me on youtube"
-                   src = "https://c866088.ssl.cf3.rackcdn.com/assets/youtube40x40.png"
-                   className="youtube-icon"/>
-                </a>
-                <a href = "https://www.instagram.com/PLACEHOLDER">
-                    <img title = "follow me on instagram"
-                    alt = "follow me on instagram"
-                    src = "https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png"
-                    className = "instagram-icon" / >
-                </a>
+                <p>Outside of the gym or studio, I am a mother to five beautiful children and a wife to my husband of 7 years of wonderful marriage. 
+                    Somewhere along the way, I became an “Influencer” and "Advocate" to better living for all working mothers.</p>
+                <p>I moved to San Antonio from Laredo, MX to pursue a better life for my family and I. As my interest in fitness grew, my career goal became to finding a way to fuse my two passions – healthy eating and fitness. 
+                   <strong> It’s been an amazing journey, and well worth the trip!</strong></p>
+                <p>I use my background to educate and motivate people towards a healthier life style – one that embraces movement and getting a handle on their nutrition. 
+                    I use my vast knowledge of fitness to help people change their lives and get back what was lost.</p>
             </div>
         );
     }
