@@ -2,6 +2,8 @@ ul {
     list-style: none;
     text-align: center;
     padding-left: 0;
+    display: flex;
+    justify-content: space-around;    
 }
 
 li {
@@ -12,13 +14,19 @@ li {
 
 }
 
-li a, .dropbtn {
+ul li {
+    height: 40px;
+    line-height: 40px;
+    flex-basis: auto;
+}
+
+li a {
     color: white;
     text-decoration: none;
     padding: 14px 10px;
 }
 
-li a:hover, .dropbtn:hover {
+ul li:hover {
     background-color: rgb(139, 135, 135);
 }
 
@@ -33,7 +41,6 @@ li a:hover, .dropbtn:hover {
     margin: 0;
     overflow: hidden;
     font-size: 1em;
-    float: right;
 }
 
 .dropdown-content {
@@ -63,5 +70,10 @@ li a:hover, .dropbtn:hover {
     li a, .dropbtn {
         font-size: .75em;
         padding: 3px;
+    }
+
+    ul li {
+        height: 20px;
+        line-height: 20px;
     }
 }
