@@ -19,11 +19,14 @@ class NavBar extends Component {
                 { /* eslint-disable-next-line */ }
                 <li><a href = "#"> News </a></li>
                 { /* eslint-disable-next-line */ }
-                <li className="dropbtn">Nutrition<FontAwesomeIcon icon={faCaretDown}/>
+                    <li className="dropBtn"><a href="#">Nutrition<FontAwesomeIcon icon={faCaretDown} /></a>
                     <ul className="secondary-menu">
-                        <li><a className="dropdown-content" href="https://www.advocare.com/140262771/store/catalog/top-sellers" target = "_blank" rel = "noopener noreferrer">Supplements</a></li>
-                        <li><a className="dropdown-content" href="#" target = "_blank" rel = "noopener noreferrer">Healthy Recipes</a></li>
-                        <li><a className="dropdown-content" href="https://www.advocare.com/140262771/store/catalog/top-sellers" target = "_blank" rel = "noopener noreferrer">Meal Planning</a></li>
+                            { /* eslint-disable-next-line */}    
+                        <li><a className="dropDown-content" href="https://www.advocare.com/140262771/store/catalog/top-sellers" target = "_blank" rel = "noopener noreferrer">Supplements</a></li>
+                            { /* eslint-disable-next-line */}
+                        <li><a className="dropDown-content" href="#" target = "_blank" rel = "noopener noreferrer">Healthy Recipes</a></li>
+                            { /* eslint-disable-next-line */}
+                        <li><a className="dropDown-content" href="#" target = "_blank" rel = "noopener noreferrer">Meal Planning</a></li>
                     </ul>
                 </li>
                 { /* eslint-disable-next-line */ }
